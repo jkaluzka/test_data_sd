@@ -22,6 +22,10 @@ int main()
 						if(f>10){
 							result = a + b + c + d + e + f;
 							printf("%d", result);
+							if(f>12){
+								result = a + b + c + d + e + f;
+								printf("%d", result);
+							}
 						}
 					}
 				}
